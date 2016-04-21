@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">RatingBar</string>
+    <string name="app_name">Rating Bar</string>
+    <string name="title">DISCUS FISH</string>
+    <string name="button">RATE ME</string>
 </resources>

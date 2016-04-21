@@ -11,17 +11,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fish 1"
-        android:id="@+id/tx1"
+        android:text="@string/app_name"
         android:textColor="#ffff"
-        style="?android:textAppearanceLarge"/>
+        style="?android:textAppearanceLarge"
+        android:id="@+id/tx1"
+        android:layout_centerHorizontal="true"/>
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:src="@drawable/f1"
         android:id="@+id/f1"
-        android:layout_below="@id/tx1"/>
+        android:layout_below="@id/tx1"
+        android:paddingTop="20dp"/>
 
     <RatingBar
         android:id="@+id/ratingbar1"
@@ -35,7 +37,7 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RATE ME"
+        android:text="@string/button"
         android:layout_below="@+id/ratingbar1"
         android:layout_centerHorizontal="true"
         android:background="@color/colorPrimary"/>
