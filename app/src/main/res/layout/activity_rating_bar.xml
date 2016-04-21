@@ -5,13 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
+    android:background="#FF35B5FF"
     tools:context="com.example.wansu.ratingbar.RatingBarActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Fish 1"
-        android:id="@+id/tx1"/>
+        android:id="@+id/tx1"
+        android:textColor="#ffff"
+        style="?android:textAppearanceLarge"/>
 
     <ImageView
         android:layout_width="match_parent"
@@ -34,5 +37,6 @@
         android:layout_height="wrap_content"
         android:text="RATE ME"
         android:layout_below="@+id/ratingbar1"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"/>
 </RelativeLayout>
